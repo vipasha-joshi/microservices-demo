@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello from Node API!' });
+  res.json({ message: 'Hello from Node JS API!' });
 });
 
 const PORT = process.env.PORT || 3001;
